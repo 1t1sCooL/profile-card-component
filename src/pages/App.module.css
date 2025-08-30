@@ -90,3 +90,11 @@ body{
 .hidden{
   display: none;
 }
+@media (max-width: 320px){
+  body{
+    padding: 10px;
+  }
+  .wrapper{
+    max-width: 300px;
+  }
+}
