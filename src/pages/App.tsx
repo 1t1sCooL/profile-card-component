@@ -7,9 +7,9 @@ function App() {
       <div className={styles.container}>
         <div className={styles.wrapper}>
           <h1 className={styles.hidden}>Victor Crest</h1>
-          <img src={"/images/bg-pattern-card.svg"} alt="" />
+          <img src={`${import.meta.env.BASE_URL}images/bg-pattern-card.svg`} alt="" />
           <div className={styles.content}>
-            <img src={"/images/image-victor.jpg"} alt="Victor Crest" />
+            <img src={`${import.meta.env.BASE_URL}images/image-victor.jpg`} alt="Victor Crest" />
             <h2>
               Victor Crest <span>26</span>
             </h2>
