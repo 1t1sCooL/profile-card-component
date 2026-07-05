@@ -8,8 +8,8 @@
   font-family: "Kumbh Sans";
   font-style: normal;
   font-weight: 100 900;
-  font-display: swap;
-  src: url("../../public/Kumbh_Sans/KumbhSans-VariableFont_YOPQ,wght.ttf")
+  font-display: optional;
+  src: url("/Kumbh_Sans/KumbhSans-VariableFont_YOPQ,wght.ttf")
   format("truetype");
 }
 *{
